@@ -1,0 +1,493 @@
+body{
+    width: 70%;
+    margin: auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
+/*Menu Superior*/
+
+.navbar{
+    width:100%;
+    position:fixed;
+    z-index: 100;
+    padding-top: 0%;
+}
+
+.menucontainer{
+    background-color: white;
+    position:static;
+    display: flex;
+    justify-content: flex-end;  
+    align-items:baseline;  
+    margin-top: 0px;
+    width: 100%;
+}
+
+.menu{
+    width: 30%;
+}
+.logo{
+    color: blue;
+    font-weight: bold;
+}
+
+.itemscontainer{
+    align-items: center;   
+    width: 70%; 
+}
+
+.navbar-brand{
+    padding-left: 10%;
+}
+
+.menuitem{
+    font-weight: bold;
+    font-size:medium;
+    padding-right: 40px;
+}
+
+.menuboton{
+    width: 120px;
+    padding: 6px;
+    background-color:blue;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0px 3px 15px 0px rgba(8, 8, 255, 0.2);
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 30px;
+}
+
+
+/*Secciones de la pagina*/
+/*seccion 1*/
+.seccion1{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.textoseccion1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+
+.texto1{
+    width: 100%;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.texto1 h2{
+    width: 100%;
+    font-weight: bold;
+    font-size: 40px;
+    color: #1f3e72;
+    margin-bottom: -20px;
+}
+
+
+.iconoamarillo1{
+    width: 50%;
+    text-align: start;
+    height: 50px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: baseline;
+}
+
+.botonazul1{
+    height: 50px; 
+    display: flex;
+    justify-content:flex-start;
+    align-items: baseline;
+}
+.fotosect1{
+    width: 50%;
+
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.foto1{
+    display: block;
+    max-width: none !important;
+    margin-left: -40%;
+}
+
+/*cuadro flotente seccion 1*/
+.cuadroflotante{
+    width: 750px;
+    position: absolute;
+    z-index: 101;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    margin-top: 500px;
+    margin-left: 300px;
+    background-color: rgb(255,255,255, 0.95);
+    box-shadow: 0px 5px 20px 0px rgba(8, 8, 255, 0.2);
+    border-radius: 5px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.itemcuadro{
+    width: 25%;
+    padding-left: 18px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start; 
+}
+.itemcuadro p{
+    color: #758299;
+    font-size: medium;
+}
+strong{
+    color: #1f3e72;
+}
+
+
+/*Seccion 2, banner de logos*/
+.bannerlogos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logos{
+    padding-top: 50px;
+    padding-bottom: 100px;
+ }
+.logos img{
+    width: 150px;
+    margin-left: 45px;
+    margin-right: 45px;
+    filter: grayscale(100%);
+    opacity: 30%;
+}
+
+/*Seccion 3, texto y cuadros flotantes*/
+.seccion3{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.textoseccion3{
+    width: 100%;
+    margin-left: 30px;
+}
+.textoseccion3 h2{
+    font-weight: bold;
+    font-size: 30px;
+    color: #1f3e72;
+}
+
+.cuadrosflotantes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.cuadrosflot{
+    width: 20%;
+    border-color: #f0f0f9;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 3px 0px rgba(8, 8, 255, 0.2);
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.cuadrosflot h3{
+    color: #1f3e72;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 15px;
+    
+}
+.cuadrosflot i {
+    height: 40px;
+    font-size: x-large;
+}
+
+/*Seccion 4, imagen y texto*/
+.seccion4{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.textoseccion4{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+
+.imgseccion4{
+    width: 50%;
+
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.imgsec4{
+    height: 600px;
+    display: block;
+    max-width: none !important;
+    margin-left: -40%;
+}
+.texto4{
+    width: 100%;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
+.texto4 h2{
+    width: 100%;
+    font-weight: bold;
+    font-size: 35px;
+    color: #1f3e72;
+    margin-top: -45px;
+}
+.cuadrosflotantes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.cuadroflot4{
+    width: 80%;
+    border-color: #f0f0f9;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px 0px rgba(8, 8, 255, 0.2);
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.cuadroflot4 h3{
+    color: #1f3e72;
+    font-weight: bold;
+    font-size: medium;
+    padding-left: 10px;
+}
+.cuadroflot4 p{
+    font-size: small;
+    padding-left: 7px;
+}
+#cuadroresaltado{
+    box-shadow: 5px 5px 15px 0px rgba(8, 8, 255, 0.2);
+}
+#cuadroresaltado p{
+    margin-left: 35px;
+}
+
+
+/*Seccion 5*/
+.seccion5{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.textoseccion5{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+
+.imgseccion5{
+    width: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+.img5{
+    height: 500px;
+    display: block;
+    max-width: none !important;
+}
+.texto5{
+    width: 100%;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
+.texto5 h2{
+    width: 100%;
+    font-weight: bold;
+    font-size: 35px;
+    color: #1f3e72;
+    margin-top: -45px;
+}
+.cuadrosflotantes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+.cuadrosflot5{
+    width: 35%;
+    border-color: #f0f0f9;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px 0px rgba(8, 8, 255, 0.2);
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.cuadrosflot5 h3{
+    color: #1f3e72;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+.cuadrosflot5 p{
+    margin-left: 50px;
+    font-size: small;
+    margin-top: -20px;
+}
+
+.cuadrosflot5 button{
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: #f1f5ff;
+    border-radius: 5px;
+    color: #2c4cca;
+    width: 140px;
+    padding: 8px;
+}
+#botonresaltado{
+    background-color:#2c4cca;
+    box-shadow: 0px 3px 15px 0px rgba(8, 8, 255, 0.2);
+    color: white;
+}
+.cuadrosflot5 i {
+    font-size: x-large;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+i{
+   background-color: #e9f1fe;
+   padding-top: 3px;
+   padding-left: 5px;
+   padding-bottom: 3px;
+   padding-right: 5px;
+   border-radius: 5px;
+   margin-right: 8px;
+}
+.ichico{
+    height: 30px;
+}
+.igrande{
+    font-size: 30px
+}
+.iazul {
+    color: #2e4ecc;
+    font-size: 15px;
+}
+.iamarillo{
+    color: #ffd012;
+    background-color: #fff8df;
+}
+
+
+/*Pie de pagina*/
+/*pie de pagina*/
+.piedepagina{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    background-color: #eef3ff;
+    padding: 35px;
+    padding-bottom: 10px;
+}
+.pie1{
+    width: 50%;
+    padding-left: 30px;
+}
+.pie1 h3{
+    color: #2e4ecc;
+    font-weight: bold;
+    font-size: larger;
+}
+.pie1 p{
+    font-size: small;
+    font-weight: bold;
+}
+.pie2{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.listacontainer{
+    width: 30%;
+}
+.listacontainer h4{
+    color: #1f3e72;
+    font-size: medium;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    margin-left: -30px;
+}
+li{
+    font-size: small;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.pie3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
+
+span{
+    font-weight: bold;
+}
+
+.derechosdeautor{
+    padding-left: 30px;
+}
+.terminos{
+    padding-right: 100px;
+}
